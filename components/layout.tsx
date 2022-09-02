@@ -5,7 +5,7 @@ const Layout = ({ children }) => {
   return (
     <div>
       <SideNav />
-      <div className="pl-60 h-full bg-white">{children}</div>
+      <div className="pl-60 pt-5 h-full">{children}</div>
     </div>
   );
 };
