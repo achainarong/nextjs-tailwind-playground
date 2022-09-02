@@ -4,7 +4,7 @@ import SideNav from '../components/SideNav';
 import { NextPageWithLayout } from './_app';
 
 const HomePage: NextPageWithLayout = () => {
-  return <div className="bg-black h-full w-full"> ssss dsds</div>;
+  return <div className="h-full w-full"> ssss dsds</div>;
 };
 
 HomePage.getLayout = function getLayout(page: ReactElement) {
