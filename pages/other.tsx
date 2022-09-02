@@ -4,7 +4,11 @@ import SideNav from '../components/SideNav';
 import { NextPageWithLayout } from './_app';
 
 const OtherPage: NextPageWithLayout = () => {
-  return <div className="h-full w-full"> das</div>;
+  return (
+    <div className="h-full w-full">
+      <h1 className="h-full w-full text-2xl">Other stuff</h1>
+    </div>
+  );
 };
 
 OtherPage.getLayout = function getLayout(page: ReactElement) {
