@@ -1,11 +1,13 @@
 import React from 'react';
 import SideNav from './SideNav';
 
-export default function Layout({ children }) {
+const Layout = ({ children }) => {
   return (
-    <>
+    <div>
       <SideNav />
-      <main>{children}</main>
-    </>
+      <div className="pl-60 h-full bg-white">{children}</div>
+    </div>
   );
-}
+};
+
+export default Layout;

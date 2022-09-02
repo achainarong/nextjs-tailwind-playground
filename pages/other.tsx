@@ -8,6 +8,6 @@ const OtherPage: NextPageWithLayout = () => {
 };
 
 OtherPage.getLayout = function getLayout(page: ReactElement) {
-  return <Layout>{OtherPage}</Layout>;
+  return <Layout>{OtherPage()}</Layout>;
 };
 export default OtherPage;

@@ -4,11 +4,11 @@ import SideNav from '../components/SideNav';
 import { NextPageWithLayout } from './_app';
 
 const HomePage: NextPageWithLayout = () => {
-  return <div className="bg-white h-full w-full"> ssss dsds</div>;
+  return <div className="bg-black h-full w-full"> ssss dsds</div>;
 };
 
 HomePage.getLayout = function getLayout(page: ReactElement) {
-  return <Layout>{HomePage}</Layout>;
+  return <Layout>{HomePage()}</Layout>;
 };
 
 export default HomePage;
