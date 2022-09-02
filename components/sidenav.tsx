@@ -2,7 +2,7 @@ import React from 'react';
 
 const SideNav = () => {
   return (
-    <div className="w-60 h-full shadow-md bg-gray-900 px-1 absolute">
+    <div className="w-48 h-full shadow-md bg-gray-900 px-1 absolute">
       <ul className="relative">
         <li className="relative">
           <a
